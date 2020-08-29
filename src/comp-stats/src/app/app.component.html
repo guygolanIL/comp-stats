@@ -1,0 +1,14 @@
+<div id="selectors-container">
+  <div id="selectors">
+    CPU: <mat-slider (change)="changeCpu($event.value)" min="1" max="100" step="1" value="1"></mat-slider>
+    <br />
+    RAM: <mat-slider (change)="changeRam($event.value)" min="1" max="100" step="1" value="1"></mat-slider>
+  </div>
+</div>
+<div id="stats-container">
+  <div id="stats">
+    Cpu usage: {{cpuUsage}}
+    <br/>
+    Ram usage: {{ramUsage}}
+  </div>
+</div>

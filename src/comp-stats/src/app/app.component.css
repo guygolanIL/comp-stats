@@ -1,0 +1,15 @@
+#selectors-container {
+  display: flex;
+}
+
+#selectors {
+  margin: auto;
+}
+
+#stats-container {
+  display: flex;
+}
+
+#stats {
+  margin: auto;
+}
